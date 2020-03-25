@@ -1,6 +1,12 @@
 $LOAD_PATH.unshift(File.dirname(__FILE__))
 require 'directors_database'
 require 'pry'
+<<<<<<< HEAD
+=======
+
+# Find a way to accumulate the :worldwide_grosses and return that Integer
+# using director_data as input
+>>>>>>> af9675ff8cd8e408d95a98b6fe78f7ed1d30df88
 
 def gross_for_director(director_data)
     gross_dir = 0
